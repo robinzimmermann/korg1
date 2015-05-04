@@ -1,0 +1,24 @@
+# Site settings
+title: Kaazing
+email: organization-site@kaazing.com
+description: "Kaazing"
+baseurl: ""
+url: https://kaazing.github.io
+highlighter: pygments
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
+#categories: [general]
+#relative_permalinks: false
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+  input: "GFM"
+
+gems:
+#  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+#  - jekyll-sitemap
